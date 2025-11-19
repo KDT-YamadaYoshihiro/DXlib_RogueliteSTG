@@ -1,6 +1,6 @@
 #pragma once
 // ƒ‰ƒCƒuƒ‰ƒŠ
-#include "Dxlib.h"
+#include "DxLib.h"
 
 #include <ctime>
 #include <math.h>
