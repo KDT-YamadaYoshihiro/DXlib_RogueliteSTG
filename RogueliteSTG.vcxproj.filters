@@ -19,6 +19,12 @@
     <Filter Include="ソース ファイル\Screen">
       <UniqueIdentifier>{c426bcb3-b912-4717-8756-dbe200042e8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Chracter">
+      <UniqueIdentifier>{79f1cf61-7c98-4711-8af8-74373092598b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameMain">
+      <UniqueIdentifier>{4f4b1faf-c17f-45a5-ae30-b3c9ae9b4e06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp">
@@ -32,9 +38,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\GameMain.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="src\Screen\ScreenManager.h">
       <Filter>ヘッダー ファイル\Screen</Filter>
     </ClInclude>
@@ -50,8 +53,17 @@
     <ClInclude Include="src\Screen\ReslutScreen.h">
       <Filter>ヘッダー ファイル\Screen</Filter>
     </ClInclude>
-    <ClInclude Include="src\WindowSetting.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\GameMain\GameMain.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain\WindowSetting.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain\Render.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain\CameraManager.h">
+      <Filter>ヘッダー ファイル\GameMain</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

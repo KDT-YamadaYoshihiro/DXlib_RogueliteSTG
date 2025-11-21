@@ -1,4 +1,4 @@
-#include "../src/GameMain.h"
+#include "../src/GameMain/GameMain.h"
 
 bool GameMain::Init()
 {

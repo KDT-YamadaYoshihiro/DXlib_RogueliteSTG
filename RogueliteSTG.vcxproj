@@ -152,13 +152,15 @@
     <ClCompile Include="src\Screen\TitleScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\GameMain.h" />
+    <ClInclude Include="src\GameMain\CameraManager.h" />
+    <ClInclude Include="src\GameMain\GameMain.h" />
+    <ClInclude Include="src\GameMain\Render.h" />
+    <ClInclude Include="src\GameMain\WindowSetting.h" />
     <ClInclude Include="src\Screen\IngameScreen.h" />
     <ClInclude Include="src\Screen\ReslutScreen.h" />
     <ClInclude Include="src\Screen\ScreenBase.h" />
     <ClInclude Include="src\Screen\ScreenManager.h" />
     <ClInclude Include="src\Screen\TitleScreen.h" />
-    <ClInclude Include="src\WindowSetting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
