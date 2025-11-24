@@ -77,10 +77,10 @@
     <ClInclude Include="src\GameMain\CameraManager.h">
       <Filter>ヘッダー ファイル\GameMain</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameMain\Render.h">
+    <ClInclude Include="src\Graphic\AnimationSprite.h">
       <Filter>ヘッダー ファイル\Graphic</Filter>
     </ClInclude>
-    <ClInclude Include="src\Graphic\AnimationSprite.h">
+    <ClInclude Include="src\Graphic\Render.h">
       <Filter>ヘッダー ファイル\Graphic</Filter>
     </ClInclude>
   </ItemGroup>
