@@ -25,16 +25,31 @@
     <Filter Include="ヘッダー ファイル\GameMain">
       <UniqueIdentifier>{4f4b1faf-c17f-45a5-ae30-b3c9ae9b4e06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\GameMain">
+      <UniqueIdentifier>{7c9340d3-7c87-4539-843c-2d87dd90b86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{5fa88e96-3a80-426c-8703-44badbcc332b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{21fd7d1f-9b32-43ea-b22f-b2b5d4e7733f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Graphic">
+      <UniqueIdentifier>{79d86b24-e563-4bef-b9a3-225d797b4b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic">
+      <UniqueIdentifier>{6dcae0d1-f720-43c7-8738-a086dbfc78b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameMain.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="src\Screen\ScreenManager.cpp">
       <Filter>ソース ファイル\Screen</Filter>
     </ClCompile>
     <ClCompile Include="src\Screen\TitleScreen.cpp">
       <Filter>ソース ファイル\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>ソース ファイル\GameMain</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,11 +74,14 @@
     <ClInclude Include="src\GameMain\WindowSetting.h">
       <Filter>ヘッダー ファイル\GameMain</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameMain\Render.h">
-      <Filter>ヘッダー ファイル\GameMain</Filter>
-    </ClInclude>
     <ClInclude Include="src\GameMain\CameraManager.h">
       <Filter>ヘッダー ファイル\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain\Render.h">
+      <Filter>ヘッダー ファイル\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphic\AnimationSprite.h">
+      <Filter>ヘッダー ファイル\Graphic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
