@@ -30,30 +30,38 @@ public:
 	// アニメ更新
 	void Update(float delta)
 	{
-
+		// 
 		if (!playing)
 		{
 			return;
 		}
 
+		// 
 		timer += delta;
-		currentFrame++;
-
-		if (currentFrame >= frameCount)
+		// 
+		int advanse = (int)(timer / frameTime);
+		if (advanse == 0)
 		{
-			if (loop)
-			{
-				currentFrame = 0;
+			return;
+		}
+
+		// 
+		timer -= advanse * frameTime;
+		currentFrame += advanse;
+
+		if (loop)		// ループあり
+		{
+			if (currentFrame >= frameCount) {
+				currentFrame %= frameCount;
 			}
-			else
+		}
+		else {			// ループなし
+			if (currentFrame >= frameCount)
 			{
 				currentFrame = frameCount - 1;
 				playing = false;
-
-			}// if(loop)
-
-		} // if (currentFrame >= frameCount)
-
+			}
+		}
 
 	}
 
